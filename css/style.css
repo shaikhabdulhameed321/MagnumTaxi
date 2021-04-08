@@ -1,0 +1,1213 @@
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Khula', sans-serif;
+}
+header{
+    background-image: url('../images/d79bbdd8-a72a-4f6c-9b67-9b9b8f4b54dd-1.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header-navigation{
+    max-width: 1265px;
+    margin: 0 auto;
+    position: sticky;
+    top: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+display: flex
+}
+.nav-logo img{
+    width: 130px;
+    height: 65px;
+}
+.hamburger{
+    display: none;
+}
+.nav-buttons{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.nav-buttons ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    padding-right: 31px;
+}
+.nav-buttons ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-buttons ul li a:hover, .nav-buttons ul li .active{
+    color: #fecc18;
+}
+.nav-buttons ul li a:focus{
+    color: #f7a700;
+}
+#home-button{
+    color: #f7a700;
+}
+#booknow-button{
+    background-color: #be202e;
+    color: #fff;
+    border-radius: 30px;
+    padding: 17px 25px 17px 25px;
+}
+#booknow-button:hover{
+    color: #f7a700;
+    background-color: #be202e;
+}
+.nav-buttons ul li:last-child{
+    padding: 0;
+}
+.header-second-part{
+    text-align: center;
+    padding-top: 190px;
+}
+.header-second-part h1{
+    color: #f7a700;
+    font-size: 44px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Khula';
+    padding-left:25px ;
+}
+.header-second-part p{
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+    margin-top: -18px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-family: 'Khula';
+    font-weight: 700;
+}
+.promotion-section{
+    text-align: center;
+    background-color: #be202e;
+    padding: 100px 15px;
+    margin-top: -65px;
+    width: calc(100% - 30px);
+}
+.promotion-section h2{
+    font-size: 39px;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    font-family: 'Khula';
+    margin: 0;
+    line-height: 45px;
+
+}
+.promotion-section p {
+    font-size: 17px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 0 143px;
+    /* media query per zero kerni ha dono  */
+    line-height: 27px;
+    letter-spacing: 0.4px;
+    font-family: 'Khula';
+    margin: 20px 0 25px;
+}
+.promotion-section button{
+    background-color: #ffc618;
+    color: #000000;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    padding: 15px 17px 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.our-services{
+    padding: 55px 0 65px;
+}
+.our-services .container {
+    max-width: 1400px;
+    margin: auto;
+}
+.our-services h1 {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #f7a700;
+    letter-spacing: 2px;
+    margin: 0;
+    font-family: 'Khula';
+    text-align: center;
+}
+.our-services p {
+    color: black;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    font-family: 'Khula';
+    text-align: center;
+    line-height: 55px;
+}
+
+.services-section{
+text-align: center;
+margin-top: 30px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.services-section_components{
+  
+    background-color: #be202e;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 40px 4px 20px 4px;
+    margin: 0 5px 0 5px;
+    flex-shrink: 2.5;
+    flex-basis: 300px;
+    flex-wrap: wrap;
+}
+
+.services-section_components h4{
+    margin-top: 0;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 17px;
+}
+hr{
+    width: 60px;
+}
+.services-section_components p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 25px 0 5px;
+    color: #ffffff;
+}
+.services-section_components:hover{
+    background-color:#f7a700 ;
+}
+.download-article{
+    text-align: center;
+    background-color: #be202e;
+    padding-top: 30px;
+}
+.store-icons{
+    width: 160px;
+    height: 50px;
+}
+#store{
+    text-align: left;
+    margin: 0;
+    width: 100%;
+}
+.download-iconsnimg{
+    display: inline-block;
+    width: 40%;
+    margin-top: 30px;
+    }
+.download-iconsnimg img{
+    margin-bottom: -10px;
+}
+    #download-text{
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+       margin-top: 140px;
+    }
+    #download-text h4{
+        color: #ffffff;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    text-align: left;
+    padding: 0px 30px 0px 0;
+    line-height: 32px;
+}
+#download-text p{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    line-height: 28px;
+    padding: 0 45px 0px 0;
+    margin-bottom: 40px;
+    text-align: left;
+}
+.download-article div h2{
+    color: #ffffff;
+    margin: 0;
+}
+#download-bestcarservices{
+    padding: 15px;
+}
+#download{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#bestcabservices{
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.icons{
+    padding: 10px 10px;
+    background-color: #be202e;
+    border-radius: 50px;
+}
+#middlecar{
+    display: inline-block;
+    width: 30%;
+}
+.threedividers{
+display: inline-block;
+width: 25%;
+}
+.our-benefits{
+    text-align: center;
+    padding: 25px;
+}
+.our-benefits h2{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#obh2{
+    color: #f7a700;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#happy-clients-testimonials{
+    text-align: center;
+    background-image: url(http://g.collectionsweb.website/wp-content/uploads/2021/01/123.png?id=1494);
+    padding: 60px 0;
+}
+#hc{
+    color: #f7a700;
+    font-size: 44px;
+    font-weight: 700;
+    margin: 0;
+}
+#t{
+    color: #ffffff;
+    font-size: 57px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 50px;
+}
+.carwithintro{
+text-align: center;
+padding: 50px 30px;
+}
+#car{
+display: inline-block;
+width: 40%;
+}
+#intro{
+display: inline-block;
+width: 40%;
+text-align: left;
+}
+#intro h2{
+    color: #f4524d;
+    margin: 0;
+    text-align: left;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: -12px;
+}
+#intro h3 {
+    margin: 0;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 700;
+}
+#intro p{
+    text-align: left;
+    color: #44464b;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    padding-right: 10px;
+}
+#intro button{
+    background-color: #ffc618;
+    color: #000000;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 15px;
+    font-weight:600;
+    text-transform: uppercase;
+    
+    }
+.call-section{
+    text-align: center;
+    background-color: #be202e;
+    padding: 50px 40px;
+}
+
+.call-section h3 {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    margin: 5px;
+    padding: 0 106px;
+    line-height: 50px;
+}
+.call-section p {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin: 0;
+}
+.call-section button{
+    background-color: #ffc618;
+    color: #000000;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px;
+    text-transform: uppercase;
+}
+.credientials{
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+
+}
+.credientials > h3{
+    color: #f4524d;
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.credientials h2{
+    margin: 0;
+    font-size: 57px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+.credientials article {
+    display: inline-block;
+    width: 28%;
+    margin-top: 35px;
+    text-align: left;
+}
+.benefits-content{
+    text-align: left;
+}
+.benefits-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #171717;
+}
+.benefits-content p{
+    color: #44464b;
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom:20px ;
+}
+.benefits-content img{
+    height: 45px;
+    width: 45px;
+}
+.footer-components{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    text-align: left;
+    margin: 0 20px;
+}
+.googleandiosstore{
+    width: 166px;
+    height: 49px;
+}
+footer{
+    background-image: url('../images/Place-your-Image-here.png');
+    text-align: center;
+    padding: 30px 0;
+}
+.footer-components h3, .footer-components p{
+    text-align: left;
+    color: #ffffff;
+}
+.footer-components h3{
+    border-bottom:5px solid #f7a700;
+    padding-bottom: 30px;
+    font-size: 23px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.footer-components p{
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #ffffff;
+    padding-right: 30px;
+}
+.social-icons{
+    padding-right: 25px;
+}
+.paraitems{
+    vertical-align: middle;
+}
+
+.prefooter{
+    background-color: #222222;
+    padding: 10px 0;
+}
+.prefooter p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 200;
+
+}
+@media (min-width: 320px) and (max-width: 767px){
+header {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+     }
+     .header-navigation{
+        top: 5px;
+     }
+}
+@media (min-width: 320px) and (max-width: 767px){
+.nav-buttons {
+    display: none;
+
+     }
+.hamburger{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    padding-right: 25px;
+}
+}
+@media (min-width: 320px) and (max-width: 767px){
+
+.header-second-part div img {
+    max-width: 100%;
+    height: auto;
+    width: 342px;
+
+    } 
+    .header-second-part{
+        padding-top: 60px;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .promotion-section p{
+        padding: 0;
+
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .Containers{      
+    display: flex;
+    flex-direction: column;
+
+    }
+    .containercontent{
+        padding: 30px 0 0 0;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    #download-text{      
+    width: 100%;
+    margin: 0 ;
+
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+.download-iconsnimg img{      
+    height: auto;
+    max-width: 100%;
+    width: 322px;
+
+    }
+    .store-icons{
+    width: 186px;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 7px;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    .services-section_components {
+        margin-top: 5px;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .credientials article{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .carwithintro{
+        text-align: left;
+        padding: 0;
+        margin: 0;
+
+    }
+    .download-article{
+        width: calc(100% - 60px);
+        padding: 30px 30px 0;
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    #car img {
+     max-width: 100%;
+    height: auto;
+    width: 302px;
+
+   }
+   #car{
+       width: 100%;
+       text-align: center;
+   }
+    
+}
+@media(min-width:320px) and (max-width:767px){
+    #intro{
+        display: flex;
+    flex-direction: column;
+    width: calc(100% - 60px);
+    padding: 0 30px 15px;
+
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    #intro button{
+        width: 40%;
+        margin: 10px 5px;
+        font-size: 16px;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .footer-components p{
+        font-size: 15px;
+        padding: 0;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .call-section h3 {
+         padding: 0;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .call-section p {
+         font-size:20px;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    #hc{
+         font-size: 20px;
+
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    #t{
+         font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .header-second-part h1{
+         font-size: 20px;
+         padding: 0;
+         letter-spacing: 0;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .header-second-part p{
+        font-size: 17px;
+        line-height: 50px;
+        letter-spacing: 0;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .promotion-section h2{
+        font-size: 20px;
+        line-height: 25px;
+
+    }
+    .promotion-section {
+        padding: 85px 40px 50px;
+        margin-top: -65px;
+        width: calc(100% - 80px);
+    }
+    .nav-logo img{
+        margin: 0 0 0 20px;
+        width: 107px;
+        height: 53px;
+        object-fit: cover;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .promotion-section p{
+         font-size: 13px;
+         font-weight: 400;
+         letter-spacing: 0;
+         line-height: 20px;
+
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .promotion-section button{
+         font-size: 16px;
+
+    }
+    .carwithintro{
+        padding: 0;
+        margin: 0;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .our-services h1{
+         font-size: 20px;
+         letter-spacing: 0;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .our-services p {
+        font-size: 24px;
+        line-height: 10px;
+        letter-spacing: 0;
+
+    }
+    .our-services{
+        padding: 15px 0 30px;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:767px){
+    .services-section_components h4{
+        font-size: 20px;
+        letter-spacing: 0;
+
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .services-section_components p{
+        font-size: 13px;
+        line-height: 20px;
+        padding: 0 18px;
+        margin: 15px 0 10px;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    #happy-clients-testimonials{
+        font-size: 13px;
+       line-height: 30px;
+       padding: 30px;
+       width: calc(100% - 60px);
+    }
+    .credientials{
+        padding: 40px 35px 20px;
+        width: calc(100% - 70px);
+    }
+}
+
+
+
+@media(min-width:320px) and (max-width:767px){
+    #download{
+         font-size: 20px;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    #bestcabservices {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    #download-text h4{
+        font-size: 19.5px;
+         margin: 0;
+         padding: 25px 0 14px;
+        letter-spacing: 0;
+        line-height: 20px;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    #download-text p {
+         font-size: 13px;
+         font-weight: 400;
+         padding: 0 0 10px 0;
+         letter-spacing: 0;
+          line-height: 20px;
+         margin: 0;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .credientials > h3  {
+         font-size: 20px;
+
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .credientials > h2{
+        font-size: 24px;
+        line-height: 22px;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .benefits-content  {
+        text-align: center;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .benefits-content h3 {
+        font-size: 22px;
+        margin: 0;
+
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .benefits-content p {
+        font-size: 17px;
+       margin: 0;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    #intro h3{
+         font-size: 15px;
+         line-height: 75px;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    #intro h2{
+         font-size: 40px;
+        line-height: 40px;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    #intro p {
+         font-size: 13px;
+         padding: 0;
+         letter-spacing: 0;
+         line-height: 20px;
+        }
+}
+@media(min-width:320px) and (max-width:767px){
+    .call-section h3{
+         font-size: 20px;
+         line-height: 30px;
+    }
+    .call-section{
+        padding: 30px;
+        width: calc(100% - 60px);
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+    .call-section button{
+         font-size: 16px;
+    }
+}
+
+
+
+@media(min-width:320px) and (max-width:767px){
+    .footer-components h3{
+         font-size: 17px;
+    }
+    .footer-components{
+        width: calc(100% - 60px);
+        padding: 0 30px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    footer{
+        padding: 0;
+    }
+    .prefooter{
+        width: calc(100% - 40px);
+        padding: 10px 20px;
+    }
+}
+
+
+
+@media(min-width:320px) and (max-width:767px){
+    .footer-components p{
+         font-size: 13px;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px){
+    .prefooter p{
+        font-size: 13px;
+    }
+}
+@media(min-width:320px) and (max-width:767px){
+ .social-icons{
+     padding-right: 30px;
+    height: 15px;
+    width: 20px;
+   }
+
+}
+@media(min-width:320px) and (max-width:767px){
+    .googleandiosstore{
+        width: 100px;
+        height: 29px;
+      }
+      #myBtn{
+        padding: 10px!important;
+       font-size: 15px !important;
+       bottom: 90px !important;
+
+      }
+   }
+   @media(min-width:320px) and (max-width:767px){
+    .download-iconsnimg{
+        width: 100%;
+        margin: 0;
+      }
+   
+   }
+/* TABLET MEDIA QUERY */
+
+   @media(min-width:768px) and (max-width:991px){
+       header{
+        background-position: bottom;
+       }
+       .nav-logo{
+           padding: 0 35px;
+       }
+       .nav-buttons {
+        display: none;
+      }
+      .hamburger{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1;
+        padding-right: 25px;
+      }
+      .header-second-part{
+        padding-top: 130px;
+      }
+      .header-second-part h1{
+         font-size: 22px;
+         font-weight: 700;
+         line-height: 26px;
+         letter-spacing: 0;
+         padding: 0;
+      }
+      .header-second-part p{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        margin: 0;
+        letter-spacing: 0;
+      }
+      .header-second-part div{
+          width: 100%;
+      }
+      .header-second-part div img{
+          max-width: 100%;
+          height: auto;
+          width: 650px;
+      }
+      .promotion-section{
+        padding: 90px 45px 55px;
+        width: calc(100% - 90px);
+      }
+      .promotion-section h2{
+        font-size: 22px;
+        font-weight: 800;
+        line-height: 26px;
+        letter-spacing: 0;
+      }
+      .promotion-section p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0;
+        padding: 0;
+      }
+      .promotion-section button{
+          font-size: 16px;
+      }
+      .our-services{
+        padding: 40px 15px 40px;
+        width: calc(100% - 30px);
+      }
+      .our-services h1{
+        font-size: 22px;
+        line-height: 15px;
+        letter-spacing: 0;
+      }
+      .our-services p{
+        font-size: 26px;
+        line-height: 45px;
+        letter-spacing: 0;
+      }
+      .services-section{
+        margin: 15px 0 0;
+      }
+      .services-section_components{
+        margin: 0 2.5px 5px;
+        padding: 40px 50px;
+      }
+      .services-section_components h4{
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 0;
+      }
+      .services-section_components p{
+        font-size: 13px;
+        line-height: 21px;
+        margin: 15px 0 0;
+        padding: 0 15px;
+      }
+      .download-article{
+        width: calc(100% - 80px);
+        padding: 10px 40px 0;
+      }
+      #download{
+        font-size: 22px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      #bestcabservices{
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: 0;
+        line-height: 20px;
+      }
+      .Containers{
+          width: 100%;
+      }
+      #download-text{
+        width: 46%;
+        margin: 0;
+        margin-top: 105px;
+      }
+      #download-text h4{
+        font-size: 19.5px;
+        line-height: 22px;
+        letter-spacing: 0;
+        margin: 0;
+      }
+      #download-text p{
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0;
+        margin-bottom: 15px;
+      }
+      .download-iconsnimg{
+        width: 49%;
+        padding: 0 0 15px;
+        margin: 15px 0 -15px;
+      }
+      .download-iconsnimg img{
+          max-width: 100%;
+          height: auto;
+      }
+      .credientials{
+        padding: 30px 0;
+      }
+      .credientials article{
+          vertical-align: top;
+      }
+      .credientials h3{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+      }
+      .credientials h2{
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0;
+      }
+      .benefits-content h3{
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .benefits-content p{
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 21px;
+      }
+      .containercontent{
+          padding-top: 5px;
+      }
+      #happy-clients-testimonials{
+          padding: 35px;
+      }
+      #hc{
+        font-size: 22px;
+      }
+      #t{
+          font-size: 30px;
+          line-height: 25px;
+      }
+      .carwithintro{
+        width: calc(100% - 60px);
+        padding: 0 30px 30px;
+      }
+      #car{
+          width: 100%;
+      }
+      #car img{
+        max-height: 100%;
+        height: auto;
+        width: 650px;
+      }
+      #intro{
+        width: calc(100% - 50px);
+        padding: 0 25px;
+      }
+      #intro h3{
+        font-size: 16px;
+      }
+      #intro h2{
+        font-size: 38px;
+        line-height: 45px;
+        margin: 0;
+      }
+      #intro p{
+        font-size: 14px;
+        line-height: 21px;
+      }
+      #intro button{
+          font-size: 13px;
+      }
+      .call-section{
+        padding: 40px 20px 20px;
+        width: calc(100% - 40px);
+      }
+      .call-section h3{
+        font-size: 22px;
+        margin: 0;
+        line-height: 30px;
+      }
+      .call-section p{
+          font-size: 22px;
+      }
+      .call-section button{
+          font-size: 13px;
+      }
+      .footer-components h3{
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+      .footer-components p{
+        font-size: 13px;
+        line-height: 20px;
+      }
+      .prefooter p{
+          font-size: 13px;
+      }
+    
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   .services-section_components{
+       /* animation-name: example;
+       animation-duration: 2s;
+       animation-delay: 2s;
+    animation-iteration-count: 3;    */
+    animation: example 2s linear 2s 1 alternate;
+}
+
+@keyframes example {
+0% {background-color:rgb(207, 18, 18); }
+25% {background-color:rgb(202, 202, 37);}
+50%{background-color:rgb(226, 61, 212);}
+75%{background-color:rgb(57, 197, 57);}
+100%{background-color:rgb(132, 146, 0); }
+}
+
+
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
